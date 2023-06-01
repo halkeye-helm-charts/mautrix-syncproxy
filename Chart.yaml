@@ -1,7 +1,7 @@
 apiVersion: v2
 type: application
 appVersion: latest
-version: 1.0.0
+version: 1.0.1
 name: mautrix-syncproxy
 description: A simple HTTP push -> websocket proxy for Matrix appservices
 keywords:
@@ -14,7 +14,7 @@ maintainers:
     email: helm@gavinmogan.com
 annotations:
   artifacthub.io/changes: |2
-     - "use tcp healthchecks ([0def1d6](https://github.com/halkeye-helm-charts/mautrix-syncproxy/commit/0def1d6d4c9cb1075e22ea92b6854a234a3779f3))"
+     - "add helmignore ([93594d0](https://github.com/halkeye-helm-charts/mautrix-syncproxy/commit/93594d0a5ac7e21aa928f1eb37fe16afa74b1fc3))"
   artifacthub.io/containsSecurityUpdates: 'false'
   artifacthub.io/images: |
     - name: syncproxy
